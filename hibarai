@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>爆速で稼ぐ！日払いWORK</title>
+    <style>
+        /* 基本設定 */
+        :root {
+            --primary-color: #ffcc00; /* アクティブなイエロー */
+            --accent-color: #ff3300;  /* 勢いのあるレッド */
+            --dark-color: #222;
+            --white: #ffffff;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: var(--dark-color);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* 共通パーツ */
+        .container {
+            width: 100%;
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .btn {
+            display: block;
+            background: linear-gradient(to bottom, #ff3300, #cc0000);
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            font-weight: bold;
+            font-size: 1.2rem;
+            text-decoration: none;
+            border-radius: 50px;
+            box-shadow: 0 5px 15px rgba(255, 51, 0, 0.4);
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+        /* セクション別 */
+        header {
+            background: var(--primary-color);
+            text-align: center;
+            padding: 40px 20px;
+            clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+        }
+
+        .hero-tag {
+            background: var(--dark-color);
+            color: var(--primary-color);
+            display: inline-block;
+            padding: 5px 15px;
+            font-weight: bold;
+            transform: skewX(-15deg);
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            margin: 10px 0;
+            line-height: 1.2;
+            font-weight: 900;
+        }
+
+        .price-highlight {
+            color: var(--accent-color);
+            font-size: 3rem;
+            display: block;
+        }
+
+        .comparison {
+            background: #f9f9f9;
+            padding: 40px 0;
+        }
+
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+        }
+
+        .comparison-table th, .comparison-table td {
+            padding: 15px;
+            border-bottom: 1px solid #eee;
+            text-align: center;
+        }
+
+        .comparison-table th {
+            background: #eee;
+        }
+
+        .comparison-table .highlight {
+            background: #fff9e6;
+            color: var(--accent-color);
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        .reason {
+            padding: 40px 20px;
+        }
+
+        .reason-card {
+            background: var(--white);
+            border: 2px solid var(--primary-color);
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        .reason-num {
+            position: absolute;
+            top: -15px;
+            left: 20px;
+            background: var(--primary-color);
+            color: var(--dark-color);
+            font-weight: bold;
+            padding: 5px 15px;
+            border-radius: 5px;
+        }
+
+        footer {
+            background: var(--dark-color);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="hero-tag">エリア最高水準の給与！</div>
+        <h1>同じ時間働くなら<br><span class="price-highlight">一番高いところで。</span></h1>
+        <p>履歴書不要・最短今日から稼げる！</p>
+    </header>
+
+    <div class="container">
+        <a href="#line" class="btn">今すぐ高収入案件を見る</a>
+    </div>
+
+    <section class="comparison">
+        <div class="container">
+            <h2 style="text-align: center;">圧倒的な「稼ぎやすさ」</h2>
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>項目</th>
+                        <th>他社平均</th>
+                        <th style="background: var(--primary-color);">当サービス</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>時給</td>
+                        <td>1,150円</td>
+                        <td class="highlight">1,500円〜</td>
+                    </tr>
+                    <tr>
+                        <td>日給例</td>
+                        <td>9,200円</td>
+                        <td class="highlight">12,000円</td>
+                    </tr>
+                    <tr>
+                        <td>支払い</td>
+                        <td>翌週/翌月</td>
+                        <td class="highlight">即日現金可</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section class="reason">
+        <div class="container">
+            <h2 style="text-align: center;">なぜ、そんなに高いの？</h2>
+            
+            <div class="reason-card">
+                <div class="reason-num">Reason 01</div>
+                <h3>無駄なコストを徹底カット！</h3>
+                <p>派手な広告費やオフィス維持費を削り、その分をすべて働く皆さんの「時給」に還元しています。</p>
+            </div>
+
+            <div class="reason-card">
+                <div class="reason-num">Reason 02</div>
+                <h3>優良企業との直接提携</h3>
+                <p>中間マージンがないから、地域で一番高い給与設定が実現できるんです。</p>
+            </div>
+        </div>
+    </section>
+
+    <div style="position: sticky; bottom: 20px; padding: 0 20px; z-index: 100;">
+        <a href="#line" class="btn" style="box-shadow: 0 10px 30px rgba(0,0,0,0.3);">LINEで限定案件を受け取る</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 日払いWORK事務局</p>
+    </footer>
+
+</body>
+</html>
